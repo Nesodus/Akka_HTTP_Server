@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac1adb77-5876-40dc-9ea0-cb5f062f311b" name="Default Changelist" comment="" />
+    <list default="true" id="ac1adb77-5876-40dc-9ea0-cb5f062f311b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ToDo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ToDo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ToDoRepository.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ToDoRepository.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +19,14 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1aoJXUyfp5A9eWFfi5rSPoPxlXG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -86,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587396052083</updated>
-      <workItem from="1587396056871" duration="6031000" />
+      <workItem from="1587396056871" duration="8046000" />
     </task>
     <servers />
   </component>
@@ -94,9 +102,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="33" y="23" key="SettingsEditor" timestamp="1587403326237">
+    <state width="1228" height="162" key="GridCell.Tab.0.bottom" timestamp="1587403997165">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state x="33" y="23" key="SettingsEditor/0.23.1280.722@0.23.1280.722" timestamp="1587403326237" />
+    <state width="1228" height="162" key="GridCell.Tab.0.bottom/0.23.1280.722@0.23.1280.722" timestamp="1587403997165" />
+    <state width="1228" height="162" key="GridCell.Tab.0.center" timestamp="1587403997164">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state width="1228" height="162" key="GridCell.Tab.0.center/0.23.1280.722@0.23.1280.722" timestamp="1587403997164" />
+    <state width="1228" height="162" key="GridCell.Tab.0.left" timestamp="1587403997164">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state width="1228" height="162" key="GridCell.Tab.0.left/0.23.1280.722@0.23.1280.722" timestamp="1587403997164" />
+    <state width="1228" height="162" key="GridCell.Tab.0.right" timestamp="1587403997165">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state width="1228" height="162" key="GridCell.Tab.0.right/0.23.1280.722@0.23.1280.722" timestamp="1587403997165" />
+    <state x="33" y="23" key="SettingsEditor" timestamp="1587404079878">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="33" y="23" key="SettingsEditor/0.23.1280.722@0.23.1280.722" timestamp="1587404079878" />
   </component>
 </project>
