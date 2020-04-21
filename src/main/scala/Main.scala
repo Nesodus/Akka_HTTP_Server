@@ -1,11 +1,8 @@
 import akka.actor.ActorSystem
-import akka.http.javadsl.server.Route
-import akka.http.scaladsl.server.Directives._
-import akka.http.scaladsl.Http
 
 import scala.concurrent.Await
-import scala.util.{Failure, Success}
 import scala.concurrent.duration._
+import scala.util.{Failure, Success}
 
 
 object Main extends App {
@@ -15,12 +12,17 @@ object Main extends App {
   implicit val system: ActorSystem = ActorSystem(name = "toDoApp")
   import system.dispatcher
 
-  def route = path("rng") {
-    get {
-      complete("Akka Http Server")
-    }
-  }
-  val binding = Http().bindAndHandle(route, host, port)
+  val toDoRepository = new InMemoryToDoRepository(Seq(
+  ToDo("1", "Muney", "Get sum muney", done = false),
+  ToDo("2", "Luv", "Get sum luv", done = true),
+  ToDo("3", "Olya", "Get sum Olya", done = false)
+    )
+  )
+
+  val router = new ToDoRouter(toDoRepository)
+  val server = new Server(router, host, port)
+  val binding = server.bind()
+
   binding.onComplete {
     case Success(_) => println("Success!")
     case Failure(error: Error) => println(s"Failed with ${error.getMessage}")

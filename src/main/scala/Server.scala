@@ -1,3 +1,9 @@
-class Server {
+import akka.actor.ActorSystem
+import akka.http.javadsl.ServerBinding
+import akka.http.scaladsl.Http
 
+import scala.concurrent.{ExecutionContext, Future}
+
+class Server(router: Router, host: String, port: Int)(implicit system: ActorSystem, ex: ExecutionContext) {
+  def bind(): Future[Http.ServerBinding] = Http().bindAndHandle(router.route, host, port)
 }
