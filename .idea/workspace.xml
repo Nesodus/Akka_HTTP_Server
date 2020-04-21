@@ -4,11 +4,6 @@
     <list default="true" id="ac1adb77-5876-40dc-9ea0-cb5f062f311b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Route.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Route.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Server.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Server.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Main$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Main$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Main$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +96,7 @@
       <updated>1587396052083</updated>
       <workItem from="1587396056871" duration="15320000" />
       <workItem from="1587459739468" duration="3600000" />
+      <workItem from="1587499426839" duration="1323000" />
     </task>
     <servers />
   </component>
