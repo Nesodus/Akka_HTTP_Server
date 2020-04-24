@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac1adb77-5876-40dc-9ea0-cb5f062f311b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/AkkaHttpServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/AkkaHttpServer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +65,7 @@
       <workItem from="1587564580303" duration="50000" />
       <workItem from="1587648700935" duration="1543000" />
       <workItem from="1587732496507" duration="493000" />
-      <workItem from="1587744518490" duration="274000" />
+      <workItem from="1587744518490" duration="493000" />
     </task>
     <servers />
   </component>

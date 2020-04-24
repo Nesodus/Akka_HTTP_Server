@@ -13,11 +13,11 @@ object Main extends App {
   import system.dispatcher
 
   val toDoRepository = new InMemoryToDoRepository(Seq(
-  ToDo("1", "Programming in Scala 3rd Edition", "Finish the book alongside exercises", done = false),
-  ToDo("2", "LinkedLists and Arrays", "Find out the difference", done = true),
-  ToDo("3", "Grokking Algorithms", "Get understanding of recursion", done = false)
-    )
-  )
+  ToDo("1", "Programming in Scala 3rd Edition", "Finish the book alongside exercises", false),
+  ToDo("2", "LinkedLists and Arrays", "Find out the difference", true),
+  ToDo("3", "Grokking Algorithms", "Get understanding of recursion", false),
+  ToDo("4", "Concurrent development with Akka and Scala", "Investigate Akka documentation", false )
+  ))
 
   val router = new ToDoRouter(toDoRepository)
   val server = new Server(router, host, port)
