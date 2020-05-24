@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0mD:\Akka_HTTP_Server\src\main\scala\Main.scala:26:22: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Failure((x: Throwable forSome x not in Error))[0m
+[0m[[0m[33mwarn[0m] [0m[0m  binding.onComplete {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
