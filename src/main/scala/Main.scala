@@ -13,9 +13,9 @@ object Main extends App {
   import system.dispatcher
 
   val toDoRepository = new InMemoryToDoRepository(Seq(
-  ToDo("1", "Programming in Scala 3rd Edition", "Finish the book alongside exercises", done = true),
-  ToDo("2", "LinkedLists and Arrays", "Find out the difference", done = true),
-  ToDo("3", "Grokking Algorithms", "Complete whole book, esp. get a deep understanding of Diykstra algorithm", done = false)
+  TaskList("1", "Programming in Scala 3rd Edition", "Finish the book alongside exercises", done = true),
+  TaskList("2", "LinkedLists and Arrays", "Find out the difference", done = true),
+  TaskList("3", "Grokking Algorithms", "Complete whole book, esp. get a deep understanding of Diykstra algorithm", done = false)
     )
   )
 

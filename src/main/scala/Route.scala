@@ -7,7 +7,7 @@ trait Router {
 class ToDoRouter(toDoRepository: ToDoRepository) extends Router with Directives {
   import de.heikoseeberger.akkahttpcirce.FailFastCirceSupport._
   import io.circe.generic.auto._
-  override def route: Route = pathPrefix("todos"){
+  override def route: Route = pathPrefix("tasklist"){
     pathEndOrSingleSlash{
       get {
         complete(toDoRepository.all())

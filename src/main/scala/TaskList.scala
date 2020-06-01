@@ -1,1 +1,1 @@
-case class ToDo(id: String, title: String, description: String, done: Boolean)
+case class TaskList(id: String, title: String, description: String, done: Boolean)
